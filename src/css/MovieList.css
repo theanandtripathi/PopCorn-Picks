@@ -1,0 +1,17 @@
+
+.skeleton {
+    background-color: #b0b0b0;
+    background-image: linear-gradient(90deg, #b0b0b0 25%, #c0c0c0 50%, #b0b0b0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite linear;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  
